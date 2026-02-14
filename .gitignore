@@ -1,0 +1,12 @@
+# IDE 配置文件
+.idea/
+.vscode/
+
+# PyInstaller 编译临时文件
+build/
+dist/
+*.spec
+
+# Python 缓存
+__pycache__/
+*.pyc

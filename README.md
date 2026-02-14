@@ -36,19 +36,22 @@
 
 **1. 克隆代码仓库**
 ```bash
-git clone [https://github.com/yuzhe12/csv-.git](https://github.com/yuzhe12/csv-.git)
-
+git clone https://github.com/yuzhe12/csv-.git
+```
 **2. 配置Python环境（推荐使用Conda）**
+```bash
 conda create -n emg_env python=3.10
 conda activate emg_env
-
+```
 **3. 安装依赖库**
+```bash
 pip install -r requirements.txt
-
+```
 **4. 启动主程序**
+```bash
 cd src
 python app.py
-
+```
 ## 📚 使用说明 (Usage Guide)
  * 输入路径：选择包含原始 .csv 数据的主文件夹。程序会自动向下递归扫描所有的 CSV 文件（自动跳过图片或无关文本）。
  * 输出路径：选择要保存数据的目标文件夹。程序会完美复刻输入目录的内部层级结构（例如 P01, P02...）。
